@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="24dp" android:background="#0A0A0A"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:gravity="center">
+    <TextView android:text="MESTRO_AC\nAUTH" android:textColor="#FFFFFF" android:textSize="28sp" android:gravity="center" android:layout_marginBottom="24dp"/>
+    <EditText android:id="@+id/auth_token" android:hint="Token" android:textColor="#FFFFFF" android:layout_width="match_parent"/>
+    <EditText android:id="@+id/auth_discord" android:hint="Discord username" android:textColor="#FFFFFF" android:layout_width="match_parent" android:layout_marginTop="8dp"/>
+    <EditText android:id="@+id/auth_device" android:hint="Device ID" android:textColor="#FFFFFF" android:layout_width="match_parent" android:layout_marginTop="8dp"/>
+    <Button android:id="@+id/auth_submit" android:text="Link &amp; Enter" android:layout_width="match_parent" android:layout_marginTop="16dp"/>
+    <Button android:id="@+id/auth_trial" android:text="Use 2 Hour Trial" android:layout_width="match_parent" android:layout_marginTop="8dp"/>
+</LinearLayout>

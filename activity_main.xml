@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:padding="6dp">
+            <Button android:id="@+id/tab_frida" android:text="Frida" android:background="#1A1A1A" android:textColor="#FFFFFF"/>
+            <Button android:id="@+id/tab_process" android:text="Process" android:background="#1A1A1A" android:textColor="#FFFFFF"/>
+            <Button android:id="@+id/tab_adb" android:text="ADB" android:background="#1A1A1A" android:textColor="#FFFFFF"/>
+            <Button android:id="@+id/tab_library" android:text="Library" android:background="#1A1A1A" android:textColor="#FFFFFF"/>
+            <Button android:id="@+id/tab_dump" android:text="Dump" android:background="#1A1A1A" android:textColor="#FFFFFF"/>
+            <Button android:id="@+id/tab_apk" android:text="APK" android:background="#1A1A1A" android:textColor="#FFFFFF"/>
+            <Button android:id="@+id/tab_class" android:text="Class" android:background="#1A1A1A" android:textColor="#FFFFFF"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout android:id="@+id/content_frame" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>

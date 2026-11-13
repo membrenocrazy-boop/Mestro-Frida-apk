@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="8dp" android:background="#000000"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <EditText android:id="@+id/lib_name" android:hint="Name" android:textColor="#FFFFFF" android:background="#1A1A1A"/>
+    <EditText android:id="@+id/lib_command" android:hint="Command" android:textColor="#FFFFFF" android:background="#1A1A1A"/>
+    <Button android:id="@+id/lib_pick_script" android:text="Choose Script"/>
+    <Button android:id="@+id/lib_pick_folder" android:text="Choose Folder"/>
+    <Button android:id="@+id/lib_save" android:text="Save to Library"/>
+    <ListView android:id="@+id/library_list" android:layout_height="0dp" android:layout_weight="1"/>
+</LinearLayout>
